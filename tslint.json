@@ -5,7 +5,10 @@
     ],
     "jsRules": {},
     "rules": {
-        "typedef": true
+        "typedef": true,
+        "quotemark": {
+            "options": ["single", "jsx-double"]
+        }
     },
     "rulesDirectory": []
 }

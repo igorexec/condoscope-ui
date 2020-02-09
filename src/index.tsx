@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Root} from '@app/root';
 
 import * as serviceWorker from './serviceWorker';
-import '@app/critical-path';
+import '@app/critical-path/styles/index.scss';
 
 ReactDOM.render(<Root />, document.getElementById('root'));
 

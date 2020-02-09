@@ -3,3 +3,7 @@
 :root {
   --main-font: #{$primary-font};
 }
+
+body {
+  font-family: var(--main-font);
+}

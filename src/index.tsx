@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Root} from '@app/root';
-import './index.css';
+
 import * as serviceWorker from './serviceWorker';
+import '@app/critical-path';
 
 ReactDOM.render(<Root />, document.getElementById('root'));
 

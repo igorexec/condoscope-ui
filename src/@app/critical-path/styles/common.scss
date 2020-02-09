@@ -1,1 +1,5 @@
-:root {}
+@import "@config/design/index.scss";
+
+:root {
+  --main-font: #{$primary-font};
+}
